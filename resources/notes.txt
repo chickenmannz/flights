@@ -1,0 +1,9 @@
+curl for api:
+
+curl -X GET "https://aeroapi.flightaware.com/aeroapi/schedules/2022-05-01T15%3A00%3A00Z/2022-05-02T14%3A59%3A59Z?airline=ANZ&include_codeshares=false&max_pages=1" \
+ -H "Accept: application/json; charset=UTF-8" \
+ -H "x-apikey:  vxOWKPLQGeGaOh9CQaTAG9OTpGPfAcfO" 
+
+ curl -X GET "https://aeroapi.flightaware.com/aeroapi/schedules/2022-05-01T15%3A00%3A00Z/2022-05-02T14%3A59%3A59Z?airline=ANZ&include_codeshares=false&max_pages=2" \
+ -H "Accept: application/json; charset=UTF-8" \
+ -H "x-apikey:  vxOWKPLQGeGaOh9CQaTAG9OTpGPfAcfO" \
